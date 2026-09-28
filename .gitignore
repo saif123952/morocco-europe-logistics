@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+**/node_modules/
+vendor/
+**/vendor/
+
+# Environment files
+.env
+!.env.example
+.env.*
+!.env.example.*
+
+# Build & Dist output
+dist/
+dist-ssr/
+public/build/
+public/hot/
+public/storage
+
+# Logs & Cache
+*.log
+logs/
+.phpunit.result.cache
+.phpunit.cache/
+storage/*.key
+
+# IDE & OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
